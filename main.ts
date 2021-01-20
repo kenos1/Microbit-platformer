@@ -6,7 +6,7 @@ input.onButtonPressed(Button.AB, function () {
 let gravity = 0
 let playerx = 0
 let playery = 0
-let level = 24
+let level = 1
 playery = 3
 playerx = 0
 basic.forever(function () {
