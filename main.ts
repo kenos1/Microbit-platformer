@@ -270,11 +270,11 @@ basic.forever(function () {
                                                                                                             } else {
                                                                                                                 if (level == 28) {
                                                                                                                     basic.showLeds(`
-                                                                                                                        # # . # #
-                                                                                                                        # . # . #
-                                                                                                                        # # # # #
+                                                                                                                        . . . # .
+                                                                                                                        . . . # .
                                                                                                                         . . . . .
-                                                                                                                        # . # . #
+                                                                                                                        . # . . .
+                                                                                                                        # # . # #
                                                                                                                         `)
                                                                                                                 } else {
                                                                                                                     if (level == 29) {
@@ -331,7 +331,7 @@ basic.forever(function () {
                                                                                                                                                 . # . . .
                                                                                                                                                 `)
                                                                                                                                         } else {
-                                                                                                                                        	
+                                                                                                                                            basic.showString("You beat the game!")
                                                                                                                                         }
                                                                                                                                     }
                                                                                                                                 }
