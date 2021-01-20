@@ -1,6 +1,4 @@
 
-> Open this page at [https://yardent-was-taken.github.io/idk-what-im-doing-help-please/](https://yardent-was-taken.github.io/idk-what-im-doing-help-please/)
-
 ## Use as Extension
 
 This repository can be added as an **extension** in MakeCode.
