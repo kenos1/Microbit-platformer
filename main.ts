@@ -6,7 +6,7 @@ input.onButtonPressed(Button.AB, function () {
 let gravity = 0
 let playerx = 0
 let playery = 0
-let level = 1
+let level = 24
 playery = 3
 playerx = 0
 basic.forever(function () {
@@ -238,43 +238,43 @@ basic.forever(function () {
                                                                                                         . . . . .
                                                                                                         . . . . .
                                                                                                         . . . . .
-                                                                                                        # # # . .
+                                                                                                        # # . . #
                                                                                                         `)
                                                                                                 } else {
                                                                                                     if (level == 25) {
                                                                                                         basic.showLeds(`
-                                                                                                            . . . . #
-                                                                                                            . . . . #
                                                                                                             . . . . .
-                                                                                                            . # . . #
-                                                                                                            # # # . #
+                                                                                                            . . . . .
+                                                                                                            . . . . .
+                                                                                                            . . . . .
+                                                                                                            # . # . #
                                                                                                             `)
                                                                                                     } else {
                                                                                                         if (level == 26) {
                                                                                                             basic.showLeds(`
-                                                                                                                . . . . #
-                                                                                                                . . . . #
                                                                                                                 . . . . .
-                                                                                                                . # . . #
-                                                                                                                # # # . #
+                                                                                                                . . . . .
+                                                                                                                . . . . #
+                                                                                                                . . # . #
+                                                                                                                # . # . #
                                                                                                                 `)
                                                                                                         } else {
                                                                                                             if (level == 27) {
                                                                                                                 basic.showLeds(`
-                                                                                                                    . . . . #
-                                                                                                                    . . . . #
                                                                                                                     . . . . .
-                                                                                                                    . # . . #
-                                                                                                                    # # # . #
+                                                                                                                    . . . . .
+                                                                                                                    . . . . #
+                                                                                                                    # . # . #
+                                                                                                                    # . # . #
                                                                                                                     `)
                                                                                                             } else {
                                                                                                                 if (level == 28) {
                                                                                                                     basic.showLeds(`
-                                                                                                                        . . . . #
-                                                                                                                        . . . . #
+                                                                                                                        # # . # #
+                                                                                                                        # . # . #
+                                                                                                                        # # # # #
                                                                                                                         . . . . .
-                                                                                                                        . # . . #
-                                                                                                                        # # # . #
+                                                                                                                        # . # . #
                                                                                                                         `)
                                                                                                                 } else {
                                                                                                                     if (level == 29) {
@@ -282,47 +282,57 @@ basic.forever(function () {
                                                                                                                             . . . . #
                                                                                                                             . . . . #
                                                                                                                             . . . . .
-                                                                                                                            . # . . #
-                                                                                                                            # # # . #
+                                                                                                                            # . . . #
+                                                                                                                            # . # . #
                                                                                                                             `)
                                                                                                                     } else {
-                                                                                                                        if (level == 22) {
+                                                                                                                        if (level == 30) {
                                                                                                                             basic.showLeds(`
                                                                                                                                 . . . . #
                                                                                                                                 . . . . #
-                                                                                                                                . . . . .
-                                                                                                                                . # . . #
-                                                                                                                                # # # . #
+                                                                                                                                . . . . #
+                                                                                                                                . . # . .
+                                                                                                                                # . . . #
                                                                                                                                 `)
                                                                                                                         } else {
-                                                                                                                            if (level == 22) {
+                                                                                                                            if (level == 31) {
                                                                                                                                 basic.showLeds(`
-                                                                                                                                    . . . . #
-                                                                                                                                    . . . . #
                                                                                                                                     . . . . .
-                                                                                                                                    . # . . #
-                                                                                                                                    # # # . #
+                                                                                                                                    . . . . .
+                                                                                                                                    . # . # .
+                                                                                                                                    . . . . .
+                                                                                                                                    # . # . .
                                                                                                                                     `)
                                                                                                                             } else {
-                                                                                                                                if (level == 22) {
+                                                                                                                                if (level == 32) {
                                                                                                                                     basic.showLeds(`
-                                                                                                                                        . . . . #
-                                                                                                                                        . . . . #
                                                                                                                                         . . . . .
-                                                                                                                                        . # . . #
-                                                                                                                                        # # # . #
+                                                                                                                                        . . . . .
+                                                                                                                                        . . . . #
+                                                                                                                                        . . # . #
+                                                                                                                                        # . . . #
                                                                                                                                         `)
                                                                                                                                 } else {
-                                                                                                                                    if (level == 22) {
+                                                                                                                                    if (level == 33) {
                                                                                                                                         basic.showLeds(`
-                                                                                                                                            . . . . #
-                                                                                                                                            . . . . #
-                                                                                                                                            . . . . .
-                                                                                                                                            . # . . #
-                                                                                                                                            # # # . #
+                                                                                                                                            # . . # .
+                                                                                                                                            . . . # #
+                                                                                                                                            . # . . .
+                                                                                                                                            . # . # #
+                                                                                                                                            # # . # .
                                                                                                                                             `)
                                                                                                                                     } else {
-                                                                                                                                    	
+                                                                                                                                        if (level == 34) {
+                                                                                                                                            basic.showLeds(`
+                                                                                                                                                . # . . .
+                                                                                                                                                # # . . #
+                                                                                                                                                . . . . .
+                                                                                                                                                # # . # .
+                                                                                                                                                . # . . .
+                                                                                                                                                `)
+                                                                                                                                        } else {
+                                                                                                                                        	
+                                                                                                                                        }
                                                                                                                                     }
                                                                                                                                 }
                                                                                                                             }
